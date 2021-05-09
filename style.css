@@ -16,9 +16,9 @@ body {
 
 main {
   padding-top: 50px;
-  padding-right: 30px;
+  padding-right: 300px;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-left: 300px;
 }
 /* 
 	Image is centered using .center and sized
@@ -32,7 +32,7 @@ main {
 }
 
 img {
-  width: 200px;
+  width: 100px;
 }
 
 /* 
@@ -83,6 +83,7 @@ a:active  { color: red;  }
 /* 
 	The below stylizes my footer by adding a blackground color and center text.
 */
+
 footer {
   background-color: rgb(3, 3, 3);
   height: 40px;
