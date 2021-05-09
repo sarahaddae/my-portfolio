@@ -2,6 +2,8 @@
 
 header {
   background-color: #05090a;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 body {
@@ -9,7 +11,17 @@ body {
 }
 
 /* 
-	Image is centered using .center
+	Padding is included to center webpage
+*/
+
+main {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+/* 
+	Image is centered using .center and sized
 */
 
 .center {
@@ -20,7 +32,7 @@ body {
 }
 
 img {
-  width: 250px;
+  width: 200px;
 }
 
 /* 
@@ -55,7 +67,7 @@ p, li {
 }
 
 /* 
-	The below stylizes my links
+	Here is pseudocode to add color changes to my links
 */
 
 a {
@@ -69,11 +81,12 @@ a:hover   { color: rgb(36, 207, 230); }
 a:active  { color: red;  }
 
 /* 
-	The below stylizes my footer
+	The below stylizes my footer by adding a blackground color and center text.
 */
 footer {
   background-color: rgb(3, 3, 3);
   height: 40px;
+  padding-top: 5px;
 }
 
 
