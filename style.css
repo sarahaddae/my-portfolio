@@ -1,0 +1,87 @@
+/* This sheet stylizes my html code*/
+
+header {
+  background-color: #05090a;
+}
+
+body {
+  background-color: #faf9fc;
+}
+
+/* 
+	Image is centered using .center
+*/
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  width: 250px;
+}
+
+/* 
+	The below stylizes my font
+*/
+ 
+h1 {
+  font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Comic Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  color: #144e6d;
+  text-align: center;
+}
+ 
+p, li {
+  font-family: 'arial', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #51473b;
+}
+
+/* 
+	The below stylizes my links
+*/
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+a:link    { color: blue(51, 31, 165);  }
+a:visited { color: purple;   }
+a:hover   { color: rgb(36, 207, 230); }
+a:active  { color: red;  }
+
+/* 
+	The below stylizes my footer
+*/
+footer {
+  background-color: rgb(3, 3, 3);
+  height: 40px;
+}
+
+
+footer > p {
+  text-align: center;
+  font-family: arial, sans;
+  color: #fcf3f3;
+}
+
+
+
